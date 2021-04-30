@@ -1,0 +1,120 @@
+body{
+    background-color:#9d9999 ; 
+}
+
+h1{
+    text-align: center;
+    margin-right: 9%;
+}
+
+.livro{
+    width: 50px;
+    height: 70px;
+    margin-left: 35px;
+}
+
+img, h1 {
+    display: inline-block;
+    float: left;
+}
+
+.corAzul{
+    color:#028cba ;
+}
+
+.formulario{
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+label {
+    font-weight: bold;
+}
+
+form{
+    text-align: justify;
+}
+
+.caixasFormulario{
+    border:  none ; 
+    width: 350px;
+    background-color: white;
+}
+
+.botaoAdd{
+    background-color: #028cba;
+    color: white;
+    margin-bottom: 1%;
+}
+
+.listaInicio{
+    margin-right: 2px;
+    margin-left: 1px;
+    text-align: center;
+    overflow-x: auto;
+} 
+
+.delete {
+    background-color: black;
+    color: white;
+    border-style: outset;
+    border-color: black;
+    height: 35px;
+    width: 100px;
+    font-size: 13px;
+
+}
+
+.adicionandoNaTabela{ 
+    margin-right: 18%;
+    width: 100%;
+}
+
+th{
+    font-size: 15px;
+    border-bottom: 1px solid white ;
+    padding: 4px;
+    text-align: center;
+}
+
+
+@media(min-width: 1024px) {
+
+    .caixasFormulario{
+        border:  none ; 
+        width:1000px;
+        background-color: white;
+    }
+
+    .botaoAdd{
+    background-color: #028cba;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+
+.adicionadoFormulario{
+    margin-top: 50px;
+}
+
+.adicionandoNaTabela{
+    overflow: hidden;
+}
+
+th{
+    font-size: 25px;
+    border-bottom: 1px solid white;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 2px;
+}
+
+.livro{
+    width: 50px;
+    height: 80px;
+    margin-left: 350px;
+    float: left;
+}
+
+}

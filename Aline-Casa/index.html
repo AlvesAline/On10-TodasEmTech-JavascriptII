@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Biblioteca</title>
+</head>
+<body>
+    <div>
+        <img class="livro" src="./img/livroReto.png" alt="">
+        <h1>My<span class="corAzul">Audible</span>Books</h1> <br><br>
+    </div>
+    <div class="formulario">
+        <form action="" class="adicionadoFormulario" onsubmit="dadosFormulario(event)" >
+            <div>
+                <label for="livro" class="tituloFormulario">Livro</label><br>
+                <input class="caixasFormulario" type="text" name="titulo" id="titulo"><br><br>
+                <label for="autor">Autor</label><br>
+                <input class="caixasFormulario" type="text" name="autor" id="autor"><br><br>
+                <label for="isbn">ISBN</label><br>
+                <input class="caixasFormulario" type="text" name="isbn" id="isbn"><br><br>
+                <label for="data">Data de publicação</label><br>
+                <input class="caixasFormulario" type="date" name="data" id="data"><br><br>
+                <label for="paginas">Páginas</label><br>
+                <input class="caixasFormulario" type="number" name="paginas" id="paginas">
+            </div><br>
+            <div>
+                <input type="submit" class="caixasFormulario botaoAdd" name="adicionar" id="botaoDeEnviar" value="Adicionar Livro">       
+            </div>
+                <div id="resposta" class="listaResposta">
+                </div>
+        </form>
+    </div>  
+    <div class="listaInicio">
+    <table class="adicionandoNaTabela" id="addTabela">
+        <thead>
+            <tr>
+                <div class="lista">
+                    <th scope="col">Titulo</th>
+                    <th scope="col">Autor</th>
+                    <th scope="col">ISBN</th>
+                    <th scope="col">Data de Publicação</th>
+                    <th scope="col">Páginas</th>
+                    <th scope="col">Ação</th>  
+                </div>     
+            </tr>
+            </thead>  
+        <tbody id="respostasFormulario">
+            
+        </tbody>
+    </table>
+</div>
+    <script src="./script/script.js"></script>
+</body>
+</html>
+
